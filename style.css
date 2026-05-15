@@ -23,3 +23,8 @@ button {
   border: none;
   padding: 10px 20px;
 }
+
+h1 {
+  color: tomato;
+  font-size: 2.5em;
+}
