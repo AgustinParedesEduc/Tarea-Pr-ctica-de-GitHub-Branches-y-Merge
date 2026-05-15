@@ -22,9 +22,13 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-h1 {
-  color: tomato;
-  font-size: 2.5em;
+button:hover {
+  background: #45b7aa;
+  transform: scale(1.05);
 }
