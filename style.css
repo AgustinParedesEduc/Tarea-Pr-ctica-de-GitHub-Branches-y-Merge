@@ -1,20 +1,20 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #1e1e2f;
-
+  background: linear-gradient(135deg, #fff200 0%, #764ba2 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
 }
 
 .container {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
+  background: rgba(10, 13, 171, 0.95);
+  padding: 40px;
+  border-radius: 20px;
   text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
 }
 
 button {
